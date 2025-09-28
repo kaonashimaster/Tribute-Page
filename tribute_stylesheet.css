@@ -1,0 +1,109 @@
+
+body {
+	font-family: 'Segoe UI', Arial, sans-serif;
+	background-color:#f3f3f3;
+	margin: 0;
+	min-height: 100vh;
+}
+
+#main {
+	max-width: 800px;
+	margin: 3rem auto 2rem auto;
+	border-radius: 0.5rem;
+	box-shadow: 0 4px 24px rgba(0,0,0,0.18);
+	padding: 2.5rem 2rem 2rem 2rem;
+}
+
+#title {
+	text-align: center;
+	font-size: 2.5rem;
+	margin-bottom: 0.5rem;
+	color: #1b1b32;
+}
+
+#main > p {
+	text-align: center;
+	font-size: 1.2rem;
+	color: #4e54c8;
+	margin-bottom: 2rem;
+}
+
+#img-div {
+	text-align: center;
+	margin: 2rem 0 2.5rem 0;
+}
+
+#image {
+	display: block;
+	max-width: 100%;
+	height: auto;
+	margin: 0 auto;
+	border-radius: 0.5rem;
+	box-shadow: 0 2px 12px rgba(0,0,0,0.13);
+}
+
+#img-caption {
+	margin-top: 1rem;
+	font-size: 1rem;
+	color: #555;
+}
+
+section#tribute-info {
+	margin: 2rem 0 0 0;
+}
+
+section#tribute-info h3 {
+	font-size: 1.3rem;
+	color: #1b1b32;
+	margin-bottom: 1rem;
+}
+
+section#tribute-info ul {
+	padding-left: 1.2em;
+	margin-bottom: 2rem;
+}
+
+section#tribute-info li {
+	margin-bottom: 0.7em;
+	font-size: 1.05rem;
+}
+
+blockquote {
+	background: #f3f3f3;
+	border-left: 5px solid #4e54c8;
+	margin: 2rem 0 2rem 0;
+	padding: 1.2rem 1.5rem;
+	font-style: italic;
+	color: #222;
+	border-radius: 0.3rem;
+}
+
+blockquote cite {
+	display: block;
+	margin-top: 1rem;
+	font-size: 1rem;
+	color: #4e54c8;
+	text-align: right;
+}
+
+#tribute-link {
+	color: #4e54c8;
+	text-decoration: underline;
+	transition: color 0.2s;
+}
+
+#tribute-link:hover {
+	color: #222;
+}
+
+@media (max-width: 600px) {
+	#main {
+		padding: 1rem 0.3rem 1.5rem 0.3rem;
+	}
+	#title {
+		font-size: 1.5rem;
+	}
+	section#tribute-info h3 {
+		font-size: 1.1rem;
+	}
+}
